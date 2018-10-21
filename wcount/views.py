@@ -32,7 +32,7 @@ def wordcount(req):
 	novalue = len(newtext)
 	myval = novalue
 
-	return render_to_response("typing.html",{"texthere":novalue}) 
+	return render_to_response("text.html",{"texthere":novalue}) 
 
 @csrf_exempt
 def jquery(req):
